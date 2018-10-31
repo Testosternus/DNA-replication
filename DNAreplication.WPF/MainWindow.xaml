@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="input bases:" HorizontalAlignment="Right" Margin="0,0,650.6,351" VerticalAlignment="Bottom" FontSize="16" BorderBrush="#FF141413" BorderThickness="2"/>
+        <Label Content="output bases:" HorizontalAlignment="Right" Margin="0,0,634.6,140" VerticalAlignment="Bottom" FontSize="16" BorderBrush="Black" BorderThickness="2"/>
+        <TextBlock x:Name="tblOutput" HorizontalAlignment="Left" Margin="50,0,0,62" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="75" Width="450" FontSize="16" FontFamily="Consolas" Cursor="IBeam" Text="&lt;results come here&gt;"/>
+        <TextBox x:Name="txtInput" Height="75" Margin="50,0,0,257" TextWrapping="Wrap" Text="&lt;enter data here&gt;" VerticalAlignment="Bottom" FontSize="16" FontFamily="Consolas" HorizontalAlignment="Left" Width="450"/>
+        <Button x:Name="btnComplement" Content="complement" HorizontalAlignment="Right" Margin="0,0,634.6,202" VerticalAlignment="Bottom" Width="109" Height="29" FontSize="16"/>
+
     </Grid>
 </Window>
