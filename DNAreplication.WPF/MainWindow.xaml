@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNAreplication.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="487.78" Width="800">
     <Grid>
-        <Label Content="input bases:" HorizontalAlignment="Right" Margin="0,0,650.6,351" VerticalAlignment="Bottom" FontSize="16" BorderBrush="#FF141413" BorderThickness="2"/>
-        <Label Content="output bases:" HorizontalAlignment="Right" Margin="0,0,634.6,140" VerticalAlignment="Bottom" FontSize="16" BorderBrush="Black" BorderThickness="2"/>
-        <TextBlock x:Name="tblOutput" HorizontalAlignment="Left" Margin="50,0,0,62" TextWrapping="Wrap" VerticalAlignment="Bottom" Height="75" Width="450" FontSize="16" FontFamily="Consolas" Cursor="IBeam" Text="&lt;results come here&gt;"/>
-        <TextBox x:Name="txtInput" Height="75" Margin="50,0,0,257" TextWrapping="Wrap" Text="&lt;enter data here&gt;" VerticalAlignment="Bottom" FontSize="16" FontFamily="Consolas" HorizontalAlignment="Left" Width="450"/>
-        <Button x:Name="btnComplement" Content="complement" HorizontalAlignment="Right" Margin="0,0,634.6,202" VerticalAlignment="Bottom" Width="109" Height="29" FontSize="16"/>
+        <Label Content="input bases:" HorizontalAlignment="Right" Margin="0,32,650.6,0" FontSize="16" BorderThickness="2" Height="35" VerticalAlignment="Top"/>
+        <Label Content="output bases:" HorizontalAlignment="Right" Margin="0,243,634.6,0" VerticalAlignment="Top" FontSize="16" BorderThickness="2"/>
+        <TextBlock x:Name="tblOutput" HorizontalAlignment="Right" Margin="0,281,293.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="167" Width="450" FontSize="16" FontFamily="Consolas" Cursor="IBeam" Text="&lt;results come here&gt;" Background="#0C000000"/>
+        <TextBox x:Name="txtInput" Height="53" Margin="0,86,293.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" FontFamily="Consolas" HorizontalAlignment="Right" Width="450" BorderBrush="#FF060608" MaxLength="50"/>
+        <Button x:Name="btnComplement" Content="complement" HorizontalAlignment="Right" Margin="0,187,634.6,0" VerticalAlignment="Top" Width="109" Height="29" FontSize="16" Click="btnComplement_Click"/>
 
     </Grid>
 </Window>
